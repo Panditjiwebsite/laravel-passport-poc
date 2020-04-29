@@ -224,3 +224,12 @@ php artisan serve
 
 
 ````
+
+
+
+
+
+## Postman
+http://127.0.0.1:8000/api/details
+#Headers
+Authorization              Bearer <your_login_token>
