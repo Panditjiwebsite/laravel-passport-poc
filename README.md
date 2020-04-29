@@ -71,6 +71,9 @@ protected $hidden = [
 
 ````
 
+## app\Providers\RouteServiceProvider.php
+use Laravel\Passport\Passport;
+
 
 ## app/Providers/AuthServiceProvider.php
 
