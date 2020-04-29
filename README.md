@@ -75,6 +75,20 @@ protected $hidden = [
 use Laravel\Passport\Passport;
 
 
+    /**
+     * Define your route model bindings, pattern filters, etc.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        Passport::routes();
+        parent::boot();
+    }
+
+
+
+
 ## app/Providers/AuthServiceProvider.php
 
 
